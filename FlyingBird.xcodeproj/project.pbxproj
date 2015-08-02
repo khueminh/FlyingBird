@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B089D41B6DAB200001726C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B089D31B6DAB200001726C /* main.m */; };
+		13B089D71B6DAB200001726C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B089D61B6DAB200001726C /* AppDelegate.m */; };
+		13B089DA1B6DAB200001726C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B089D91B6DAB200001726C /* ViewController.m */; };
+		13B089DD1B6DAB200001726C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B089DB1B6DAB200001726C /* Main.storyboard */; };
+		13B089DF1B6DAB200001726C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B089DE1B6DAB200001726C /* Images.xcassets */; };
+		13B089E21B6DAB200001726C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B089E01B6DAB200001726C /* LaunchScreen.xib */; };
+		13B089EE1B6DAB200001726C /* FlyingBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B089ED1B6DAB200001726C /* FlyingBirdTests.m */; };
+		13B089FF1B6DAB7E0001726C /* jungle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B089F81B6DAB7E0001726C /* jungle.jpg */; };
+		13B08A001B6DAB7E0001726C /* bird0.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B089F91B6DAB7E0001726C /* bird0.png */; };
+		13B08A011B6DAB7E0001726C /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B089FA1B6DAB7E0001726C /* bird1.png */; };
+		13B08A021B6DAB7E0001726C /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B089FB1B6DAB7E0001726C /* bird2.png */; };
+		13B08A031B6DAB7E0001726C /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B089FC1B6DAB7E0001726C /* bird3.png */; };
+		13B08A041B6DAB7E0001726C /* bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B089FD1B6DAB7E0001726C /* bird4.png */; };
+		13B08A051B6DAB7E0001726C /* bird5.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B089FE1B6DAB7E0001726C /* bird5.png */; };
+		13B08A071B6DAB940001726C /* Son ca 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13B08A061B6DAB940001726C /* Son ca 01.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13B089E81B6DAB200001726C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B089C61B6DAB200001726C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B089CD1B6DAB200001726C;
+			remoteInfo = FlyingBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B089CE1B6DAB200001726C /* FlyingBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B089D21B6DAB200001726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B089D31B6DAB200001726C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13B089D51B6DAB200001726C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13B089D61B6DAB200001726C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13B089D81B6DAB200001726C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13B089D91B6DAB200001726C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13B089DC1B6DAB200001726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13B089DE1B6DAB200001726C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13B089E11B6DAB200001726C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B089E71B6DAB200001726C /* FlyingBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B089EC1B6DAB200001726C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B089ED1B6DAB200001726C /* FlyingBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingBirdTests.m; sourceTree = "<group>"; };
+		13B089F81B6DAB7E0001726C /* jungle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungle.jpg; sourceTree = "<group>"; };
+		13B089F91B6DAB7E0001726C /* bird0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird0.png; sourceTree = "<group>"; };
+		13B089FA1B6DAB7E0001726C /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		13B089FB1B6DAB7E0001726C /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		13B089FC1B6DAB7E0001726C /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird3.png; sourceTree = "<group>"; };
+		13B089FD1B6DAB7E0001726C /* bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird4.png; sourceTree = "<group>"; };
+		13B089FE1B6DAB7E0001726C /* bird5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird5.png; sourceTree = "<group>"; };
+		13B08A061B6DAB940001726C /* Son ca 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Son ca 01.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B089CB1B6DAB200001726C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B089E41B6DAB200001726C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B089C51B6DAB200001726C = {
+			isa = PBXGroup;
+			children = (
+				13B089D01B6DAB200001726C /* FlyingBird */,
+				13B089EA1B6DAB200001726C /* FlyingBirdTests */,
+				13B089CF1B6DAB200001726C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13B089CF1B6DAB200001726C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B089CE1B6DAB200001726C /* FlyingBird.app */,
+				13B089E71B6DAB200001726C /* FlyingBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B089D01B6DAB200001726C /* FlyingBird */ = {
+			isa = PBXGroup;
+			children = (
+				13B089D51B6DAB200001726C /* AppDelegate.h */,
+				13B089D61B6DAB200001726C /* AppDelegate.m */,
+				13B089D81B6DAB200001726C /* ViewController.h */,
+				13B089D91B6DAB200001726C /* ViewController.m */,
+				13B089DB1B6DAB200001726C /* Main.storyboard */,
+				13B089DE1B6DAB200001726C /* Images.xcassets */,
+				13B089E01B6DAB200001726C /* LaunchScreen.xib */,
+				13B089F71B6DAB590001726C /* Images */,
+				13B089D11B6DAB200001726C /* Supporting Files */,
+			);
+			path = FlyingBird;
+			sourceTree = "<group>";
+		};
+		13B089D11B6DAB200001726C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13B089D21B6DAB200001726C /* Info.plist */,
+				13B089D31B6DAB200001726C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B089EA1B6DAB200001726C /* FlyingBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				13B089ED1B6DAB200001726C /* FlyingBirdTests.m */,
+				13B089EB1B6DAB200001726C /* Supporting Files */,
+			);
+			path = FlyingBirdTests;
+			sourceTree = "<group>";
+		};
+		13B089EB1B6DAB200001726C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13B089EC1B6DAB200001726C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B089F71B6DAB590001726C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				13B08A061B6DAB940001726C /* Son ca 01.mp3 */,
+				13B089F81B6DAB7E0001726C /* jungle.jpg */,
+				13B089F91B6DAB7E0001726C /* bird0.png */,
+				13B089FA1B6DAB7E0001726C /* bird1.png */,
+				13B089FB1B6DAB7E0001726C /* bird2.png */,
+				13B089FC1B6DAB7E0001726C /* bird3.png */,
+				13B089FD1B6DAB7E0001726C /* bird4.png */,
+				13B089FE1B6DAB7E0001726C /* bird5.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B089CD1B6DAB200001726C /* FlyingBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B089F11B6DAB200001726C /* Build configuration list for PBXNativeTarget "FlyingBird" */;
+			buildPhases = (
+				13B089CA1B6DAB200001726C /* Sources */,
+				13B089CB1B6DAB200001726C /* Frameworks */,
+				13B089CC1B6DAB200001726C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingBird;
+			productName = FlyingBird;
+			productReference = 13B089CE1B6DAB200001726C /* FlyingBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B089E61B6DAB200001726C /* FlyingBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B089F41B6DAB200001726C /* Build configuration list for PBXNativeTarget "FlyingBirdTests" */;
+			buildPhases = (
+				13B089E31B6DAB200001726C /* Sources */,
+				13B089E41B6DAB200001726C /* Frameworks */,
+				13B089E51B6DAB200001726C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B089E91B6DAB200001726C /* PBXTargetDependency */,
+			);
+			name = FlyingBirdTests;
+			productName = FlyingBirdTests;
+			productReference = 13B089E71B6DAB200001726C /* FlyingBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B089C61B6DAB200001726C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nguyen Minh Khue";
+				TargetAttributes = {
+					13B089CD1B6DAB200001726C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					13B089E61B6DAB200001726C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 13B089CD1B6DAB200001726C;
+					};
+				};
+			};
+			buildConfigurationList = 13B089C91B6DAB200001726C /* Build configuration list for PBXProject "FlyingBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B089C51B6DAB200001726C;
+			productRefGroup = 13B089CF1B6DAB200001726C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B089CD1B6DAB200001726C /* FlyingBird */,
+				13B089E61B6DAB200001726C /* FlyingBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B089CC1B6DAB200001726C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B08A031B6DAB7E0001726C /* bird3.png in Resources */,
+				13B089DD1B6DAB200001726C /* Main.storyboard in Resources */,
+				13B08A071B6DAB940001726C /* Son ca 01.mp3 in Resources */,
+				13B08A051B6DAB7E0001726C /* bird5.png in Resources */,
+				13B08A041B6DAB7E0001726C /* bird4.png in Resources */,
+				13B08A021B6DAB7E0001726C /* bird2.png in Resources */,
+				13B089E21B6DAB200001726C /* LaunchScreen.xib in Resources */,
+				13B08A011B6DAB7E0001726C /* bird1.png in Resources */,
+				13B08A001B6DAB7E0001726C /* bird0.png in Resources */,
+				13B089FF1B6DAB7E0001726C /* jungle.jpg in Resources */,
+				13B089DF1B6DAB200001726C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B089E51B6DAB200001726C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B089CA1B6DAB200001726C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B089DA1B6DAB200001726C /* ViewController.m in Sources */,
+				13B089D71B6DAB200001726C /* AppDelegate.m in Sources */,
+				13B089D41B6DAB200001726C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B089E31B6DAB200001726C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B089EE1B6DAB200001726C /* FlyingBirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13B089E91B6DAB200001726C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B089CD1B6DAB200001726C /* FlyingBird */;
+			targetProxy = 13B089E81B6DAB200001726C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B089DB1B6DAB200001726C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B089DC1B6DAB200001726C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13B089E01B6DAB200001726C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B089E11B6DAB200001726C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B089EF1B6DAB200001726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13B089F01B6DAB200001726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13B089F21B6DAB200001726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13B089F31B6DAB200001726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13B089F51B6DAB200001726C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyingBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingBird.app/FlyingBird";
+			};
+			name = Debug;
+		};
+		13B089F61B6DAB200001726C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyingBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingBird.app/FlyingBird";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B089C91B6DAB200001726C /* Build configuration list for PBXProject "FlyingBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B089EF1B6DAB200001726C /* Debug */,
+				13B089F01B6DAB200001726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B089F11B6DAB200001726C /* Build configuration list for PBXNativeTarget "FlyingBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B089F21B6DAB200001726C /* Debug */,
+				13B089F31B6DAB200001726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13B089F41B6DAB200001726C /* Build configuration list for PBXNativeTarget "FlyingBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B089F51B6DAB200001726C /* Debug */,
+				13B089F61B6DAB200001726C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B089C61B6DAB200001726C /* Project object */;
+}
